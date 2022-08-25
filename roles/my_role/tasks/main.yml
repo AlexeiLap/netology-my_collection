@@ -1,0 +1,8 @@
+---
+- name: Print OS
+  debug:
+    msg: "{{ ansible_distribution }}"
+- name: Test module
+  my_own_module:
+    path: /home/kali/ansible/08-ansible-04-modules/ansible/
+    content: "Content for file"

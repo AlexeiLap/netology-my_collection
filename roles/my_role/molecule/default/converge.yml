@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include my_namespace.my_role"
+      include_role:
+        name: "my_namespace.my_role"

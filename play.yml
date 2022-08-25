@@ -1,0 +1,5 @@
+--- 
+- name: Including roles statically
+  hosts: localhost  
+  roles: 
+    - my_role 
